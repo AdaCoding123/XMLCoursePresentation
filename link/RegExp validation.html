@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<!-- saved from url=(0061)file:///C:/Users/asus/OneDrive/XMLshow/link/reg%20and%20login -->
+<html><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<style>
+div.background
+{
+  width: 1500px;
+  height: 1080px;
+  margin:0px;
+  background: url(C:/Users/asus/OneDrive/XMLshow/images/IMG_6443.jpg)round;
+  border: 0px ;
+}
+
+div.transbox
+{
+  width: 1500px;
+  height: 1080px;
+  margin:5px;
+  padding:5px;
+  background-color: #ffffff;
+  border: 0px ;
+  /* for IE */
+  filter:alpha(opacity=70);
+  /* CSS3 standard */
+  opacity:0.7;
+}
+div.transbox p
+{
+  margin: 100px 800px;
+  color: #000000;
+  font:bold 12px Verdana, Geneva, sans-serif;
+  line-height:1.5;
+}
+</style>
+ 
+<title>RegExp validation</title> 
+<script language="JavaScript"> 
+function validate() { 
+var doc = document.test;   
+    
+var valName = new RegExp("^[a-zA-Z]{4,10}$"); 
+if (doc.Name.value.match(valName) == null) { 
+alert("用户名只能为字母！字数4到10位！请重新输入！"); 
+} else { 
+doc.Name.value = doc.Name.value.replace(valName, "T. Patton"); 
+} 
+       
+var valPwd = new RegExp("^[a-zA-Z0-9]{6,12}$"); 
+if (doc.pwd.value.match(valPwd) == null) { 
+alert("密码只能输入字母或数字，不区分大小写！字符个数6到12！"); 
+} } 
+
+</script>
+</head> 
+<body>
+<div class="background">
+<div class="transbox">         
+  <p>
+</p><div>
+<fieldset>
+<legend align="center">帐户信息</legend>
+<form name="test"><br>  
+用户名 <br>
+    <input type="text" name="Name" value=""><br> <br>
+密码 <br>
+    <input type="text" name="pwd" value=""><br><br> 
+<input type="button" name="test" value="登录/注册" onclick="validate();"> <br>
+    <br>   
+</form>            
+    </fieldset>
+    </div>
+<p></p>    
+</div>
+</div>
+
+
+
+</body></html>
