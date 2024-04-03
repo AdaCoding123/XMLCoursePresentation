@@ -1,0 +1,148 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+<style type="text/css">
+#customers
+  {
+  font-family:"Trebuchet MS", Arial, Helvetica, sans-serif;
+  width:100%;
+  border-collapse:collapse;
+  }
+
+#customers td, #customers th 
+  {
+  font-size:1em;
+  border:1px solid #E00000;
+  padding:3px 7px 2px 7px;
+  }
+
+#customers th 
+  {
+  font-size:1.1em;
+  text-align:left;
+  padding-top:5px;
+  padding-bottom:4px;
+  background-color:#E00000;
+  color:#ffffff;
+  }
+
+#customers tr.alt td 
+  {
+  color:#000000;
+  background-color:#EAF2D3;
+  }
+</style>
+</head>
+
+<body>
+    <h2 align="center">歌曲列表</h2>
+<table id="customers">
+<tr>
+<th>歌曲标题</th>
+<th>歌手</th>
+<th>时长</th>
+<th>专辑</th>
+</tr>
+
+<tr>
+<td>再痛也要爱 
+    <audio controls="controls">
+  <source src="/i/song.ogg" type="audio/ogg">
+  <source src="C:\Users\asus\OneDrive\XMLshow\music\再痛也要爱.mp3" type="audio/mpeg">
+Your browser does not support the audio element.
+</audio>
+    </td>
+<td>Yes'sir Days</td>
+<td>04:04</td>
+<td>เพลงประกอบละคร "อย่าลืมฉัน"</td>  
+</tr>
+
+<tr class="alt">
+<td>只有你 <audio controls="controls">
+  <source src="/i/song.ogg" type="audio/ogg">
+  <source src="C:\Users\asus\OneDrive\XMLshow\music\只有你.mp3" type="audio/mpeg">
+Your browser does not support the audio element.
+</audio></td>
+<td>Pchy</td>
+<td>04:11</td>
+<td>暹罗之恋</td>
+</tr>
+
+<tr>
+<td>命定之爱 <audio controls="controls">
+  <source src="/i/song.ogg" type="audio/ogg">
+  <source src="C:\Users\asus\OneDrive\XMLshow\music\命定之爱.mp3" type="audio/mpeg">
+Your browser does not support the audio element.
+</audio></td>
+<td>Nan Vatiya</td>
+<td>03:48</td>
+    <td>รักลิขิต </td>
+</tr>
+
+<tr class="alt">
+<td>怎样都爱你 <audio controls="controls">
+  <source src="/i/song.ogg" type="audio/ogg">
+  <source src="C:\Users\asus\OneDrive\XMLshow\music\怎样都爱你.mp3" type="audio/mpeg">
+Your browser does not support the audio element.
+</audio></td>
+<td>Tono Phakin</td>
+<td>03:16</td>
+    <td>Drama Romantic Love</td>
+</tr>
+
+<tr>
+<td>越抑制越动摇<audio controls="controls">
+  <source src="/i/song.ogg" type="audio/ogg">
+  <source src="C:\Users\asus\OneDrive\XMLshow\music\越抑制越动摇.mp3" type="audio/mpeg">
+Your browser does not support the audio element.
+</audio></td>
+<td>Zeal</td>
+<td>03:31</td>
+    <td>เพลงประกอบละคร คลื่นชีวิต</td>
+</tr>
+
+<tr class="alt">
+<td>输了心 <audio controls="controls">
+  <source src="/i/song.ogg" type="audio/ogg">
+  <source src="C:\Users\asus\OneDrive\XMLshow\music\输了心.mp3" type="audio/mpeg">
+Your browser does not support the audio element.
+</audio></td>
+<td>KLEAR</td>
+<td>03:38</td>
+    <td>เพลงประกอบละคร คู่แค้นแสนรัก</td>
+</tr>
+
+<tr >
+<td>累了就歇，不爱就停 <audio controls="controls">
+  <source src="/i/song.ogg" type="audio/ogg">
+  <source src="C:\Users\asus\OneDrive\XMLshow\music\累了就歇，不爱就停.mp3" type="audio/mpeg">
+Your browser does not support the audio element.
+</audio></td>
+<td>Noona Nuengthida</td>
+<td>04:04</td>
+    <td>คิวบิก OST </td>
+</tr>
+    <tr class="alt">
+<td>颤动 <audio controls="controls">
+  <source src="/i/song.ogg" type="audio/ogg">
+  <source src="C:\Users\asus\OneDrive\XMLshow\music\颤动.mp3" type="audio/mpeg">
+Your browser does not support the audio element.
+</audio></td>
+<td>Boy Sompob</td>
+<td>04:19</td>
+    <td>Love Sick The Series</td>
+</tr>
+    <tr >
+<td>不爱也别伤害我<audio controls="controls">
+  <source src="/i/song.ogg" type="audio/ogg">
+  <source src="C:\Users\asus\OneDrive\XMLshow\music\不爱也别伤害我.mp3" type="audio/mpeg">
+Your browser does not support the audio element.
+</audio></td>
+<td>Noon</td>
+<td>04:05</td>
+    <td>真爱无价</td>
+</tr>
+    
+</table>
+</body>
+</html>

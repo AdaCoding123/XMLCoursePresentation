@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+div.background
+{
+  width: ;
+  height: ;
+  margin:;
+  background: url('G:\web\images\hongqun.jpg') no-repeat;
+  border: ;
+}
+
+div.transbox
+{
+  width:auto ;
+  height: ;
+  margin:;
+  padding:0;
+  background-color: #ffffff;
+  border: s;
+  /* for IE */
+  filter:alpha(opacity=60);
+  /* CSS3 standard */
+  opacity:0.6;
+}
+
+div.transbox p
+{
+  margin: 30px 40px;
+  color: #000000;
+  font:bold 12px Verdana, Geneva, sans-serif;
+  line-height:1.5;
+}
+</style>
+</head>
+
+<body>
+
+<div class="background">
+<div class="transbox">
+<p>
+This is some text that is placed in the transparent box.
+This is some text that is placed in the transparent box.
+This is some text that is placed in the transparent box.
+This is some text that is placed in the transparent box.
+This is some text that is placed in the transparent box.
+</p>
+</div>
+</div>
+
+</body>
+</html>
